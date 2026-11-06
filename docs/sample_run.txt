@@ -1,0 +1,444 @@
+5 demo customers loaded: PYNB0001, PYNB0002, PYNB0003, PYNB0004, PYNB0005
+
+==================================================
+              🏦 Python National Bank              
+==================================================
+  1. Create Account
+  2. Deposit
+  3. Withdraw
+  4. Transfer
+  5. Check Balance
+  6. Mini Statement
+  7. Apply Savings Interest
+  8. Bank Report
+  0. Exit
+
+Enter choice: 1
+Customer name   : priya patel
+Type ('Savings', 'Current', 'Salary'): savings
+Opening deposit : 2000
+Set 4-digit PIN : 7777
+✅ Account created successfully!
+Your account number is PYNB0006
+
+==================================================
+              🏦 Python National Bank              
+==================================================
+  1. Create Account
+  2. Deposit
+  3. Withdraw
+  4. Transfer
+  5. Check Balance
+  6. Mini Statement
+  7. Apply Savings Interest
+  8. Bank Report
+  0. Exit
+
+Enter choice: 1
+Customer name   : Ab
+Type ('Savings', 'Current', 'Salary'): savings
+Opening deposit : 2000
+Set 4-digit PIN : 1111
+❌ Input error: Name must contain only letters and spaces (minimum 3 characters).
+
+==================================================
+              🏦 Python National Bank              
+==================================================
+  1. Create Account
+  2. Deposit
+  3. Withdraw
+  4. Transfer
+  5. Check Balance
+  6. Mini Statement
+  7. Apply Savings Interest
+  8. Bank Report
+  0. Exit
+
+Enter choice: 1
+Customer name   : Test User
+Type ('Savings', 'Current', 'Salary'): savings
+Opening deposit : 2000
+Set 4-digit PIN : 1111
+❌ Input error: This name is not allowed.
+
+==================================================
+              🏦 Python National Bank              
+==================================================
+  1. Create Account
+  2. Deposit
+  3. Withdraw
+  4. Transfer
+  5. Check Balance
+  6. Mini Statement
+  7. Apply Savings Interest
+  8. Bank Report
+  0. Exit
+
+Enter choice: 1
+Customer name   : Valid Name
+Type ('Savings', 'Current', 'Salary'): savings
+Opening deposit : 2000
+Set 4-digit PIN : 12a4
+❌ Input error: PIN must be exactly 4 digits.
+
+==================================================
+              🏦 Python National Bank              
+==================================================
+  1. Create Account
+  2. Deposit
+  3. Withdraw
+  4. Transfer
+  5. Check Balance
+  6. Mini Statement
+  7. Apply Savings Interest
+  8. Bank Report
+  0. Exit
+
+Enter choice: 1
+Customer name   : Valid Name
+Type ('Savings', 'Current', 'Salary'): Gold
+Opening deposit : 2000
+Set 4-digit PIN : 1111
+❌ Input error: Account type must be one of: Savings, Current, Salary
+
+==================================================
+              🏦 Python National Bank              
+==================================================
+  1. Create Account
+  2. Deposit
+  3. Withdraw
+  4. Transfer
+  5. Check Balance
+  6. Mini Statement
+  7. Apply Savings Interest
+  8. Bank Report
+  0. Exit
+
+Enter choice: 1
+Customer name   : Valid Name
+Type ('Savings', 'Current', 'Salary'): current
+Opening deposit : 4000
+Set 4-digit PIN : 1111
+❌ InvalidAmountError: Current account requires a minimum balance of $5,000.00.
+
+==================================================
+              🏦 Python National Bank              
+==================================================
+  1. Create Account
+  2. Deposit
+  3. Withdraw
+  4. Transfer
+  5. Check Balance
+  6. Mini Statement
+  7. Apply Savings Interest
+  8. Bank Report
+  0. Exit
+
+Enter choice: 2
+Account number : pynb0004
+Amount         : 500
+✅ Deposit successful.
+Balance: $5,500.00
+
+==================================================
+              🏦 Python National Bank              
+==================================================
+  1. Create Account
+  2. Deposit
+  3. Withdraw
+  4. Transfer
+  5. Check Balance
+  6. Mini Statement
+  7. Apply Savings Interest
+  8. Bank Report
+  0. Exit
+
+Enter choice: 2
+Account number : PYNB0004
+Amount         : abc
+❌ InvalidAmountError: Amount must be a number.
+
+==================================================
+              🏦 Python National Bank              
+==================================================
+  1. Create Account
+  2. Deposit
+  3. Withdraw
+  4. Transfer
+  5. Check Balance
+  6. Mini Statement
+  7. Apply Savings Interest
+  8. Bank Report
+  0. Exit
+
+Enter choice: 3
+Account number : PYNB0001
+PIN            : 1234
+Amount         : 5000
+✅ Please collect your cash.
+Balance: $70,000.00
+
+==================================================
+              🏦 Python National Bank              
+==================================================
+  1. Create Account
+  2. Deposit
+  3. Withdraw
+  4. Transfer
+  5. Check Balance
+  6. Mini Statement
+  7. Apply Savings Interest
+  8. Bank Report
+  0. Exit
+
+Enter choice: 3
+Account number : PYNB0001
+PIN            : 0000
+Amount         : 100
+❌ AuthenticationError: Incorrect PIN.
+
+==================================================
+              🏦 Python National Bank              
+==================================================
+  1. Create Account
+  2. Deposit
+  3. Withdraw
+  4. Transfer
+  5. Check Balance
+  6. Mini Statement
+  7. Apply Savings Interest
+  8. Bank Report
+  0. Exit
+
+Enter choice: 3
+Account number : PYNB0002
+PIN            : 2222
+Amount         : 60000
+❌ InvalidAmountError: Daily withdrawal limit is $50,000.00.
+
+==================================================
+              🏦 Python National Bank              
+==================================================
+  1. Create Account
+  2. Deposit
+  3. Withdraw
+  4. Transfer
+  5. Check Balance
+  6. Mini Statement
+  7. Apply Savings Interest
+  8. Bank Report
+  0. Exit
+
+Enter choice: 3
+Account number : PYNB0004
+PIN            : 4444
+Amount         : 5000
+❌ InsufficientFundsError: Insufficient funds. Savings accounts must maintain $1,000.00.
+
+==================================================
+              🏦 Python National Bank              
+==================================================
+  1. Create Account
+  2. Deposit
+  3. Withdraw
+  4. Transfer
+  5. Check Balance
+  6. Mini Statement
+  7. Apply Savings Interest
+  8. Bank Report
+  0. Exit
+
+Enter choice: 4
+From account   : PYNB0002
+PIN            : 2222
+To account     : PYNB0003
+Amount         : 20000
+✅ Transfer successful.
+Fee charged: $100.00
+
+==================================================
+              🏦 Python National Bank              
+==================================================
+  1. Create Account
+  2. Deposit
+  3. Withdraw
+  4. Transfer
+  5. Check Balance
+  6. Mini Statement
+  7. Apply Savings Interest
+  8. Bank Report
+  0. Exit
+
+Enter choice: 4
+From account   : PYNB0003
+PIN            : 3333
+To account     : PYNB0005
+Amount         : 5000
+✅ Transfer successful.
+Fee charged: $0.00
+
+==================================================
+              🏦 Python National Bank              
+==================================================
+  1. Create Account
+  2. Deposit
+  3. Withdraw
+  4. Transfer
+  5. Check Balance
+  6. Mini Statement
+  7. Apply Savings Interest
+  8. Bank Report
+  0. Exit
+
+Enter choice: 4
+From account   : PYNB0001
+PIN            : 1234
+To account     : PYNB0001
+Amount         : 100
+❌ InvalidAmountError: Cannot transfer money to the same account.
+
+==================================================
+              🏦 Python National Bank              
+==================================================
+  1. Create Account
+  2. Deposit
+  3. Withdraw
+  4. Transfer
+  5. Check Balance
+  6. Mini Statement
+  7. Apply Savings Interest
+  8. Bank Report
+  0. Exit
+
+Enter choice: 5
+Account number : PYNB0002
+PIN            : 2222
+💰 Simran Kaur | Gold tier | $99,900.00
+
+==================================================
+              🏦 Python National Bank              
+==================================================
+  1. Create Account
+  2. Deposit
+  3. Withdraw
+  4. Transfer
+  5. Check Balance
+  6. Mini Statement
+  7. Apply Savings Interest
+  8. Bank Report
+  0. Exit
+
+Enter choice: 6
+Account number : PYNB0004
+PIN            : 4444
+
+==================================================
+               STATEMENT - PYNB0004               
+==================================================
+Name: Neha Gupta | Type: Savings
+#   Type                    Amount         Balance
+----------------------------------------------------
+1   Opening               5,000.00        5,000.00
+2   Deposit                 500.00        5,500.00
+----------------------------------------------------
+Closing balance: $5,500.00
+
+==================================================
+              🏦 Python National Bank              
+==================================================
+  1. Create Account
+  2. Deposit
+  3. Withdraw
+  4. Transfer
+  5. Check Balance
+  6. Mini Statement
+  7. Apply Savings Interest
+  8. Bank Report
+  0. Exit
+
+Enter choice: 7
+✅ PYNB0001 (Rohan Sharma): interest credited $2,800.00
+✅ PYNB0004 (Neha Gupta): interest credited $220.00
+✅ PYNB0006 (Priya Patel): interest credited $80.00
+Total interest paid: $3,100.00
+
+==================================================
+              🏦 Python National Bank              
+==================================================
+  1. Create Account
+  2. Deposit
+  3. Withdraw
+  4. Transfer
+  5. Check Balance
+  6. Mini Statement
+  7. Apply Savings Interest
+  8. Bank Report
+  0. Exit
+
+Enter choice: 8
+
+==================================================
+                   BANK REPORT                    
+==================================================
+Total customers : 6
+Total deposits  : $263,500.00
+Accounts by type: {'Savings': 3, 'Current': 2, 'Salary': 1}
+Richest customer: Simran Kaur ($99,900.00)
+
+Rank  Acc No      Name                Tier               Balance
+----------------------------------------------------------------
+1     PYNB0002    Simran Kaur         Gold             99,900.00
+2     PYNB0001    Rohan Sharma        Gold             72,800.00
+3     PYNB0005    Karan Singh         Gold             53,000.00
+4     PYNB0003    Aman Verma          Silver           30,000.00
+5     PYNB0004    Neha Gupta          Basic             5,720.00
+6     PYNB0006    Priya Patel         Basic             2,080.00
+
+==================================================
+              🏦 Python National Bank              
+==================================================
+  1. Create Account
+  2. Deposit
+  3. Withdraw
+  4. Transfer
+  5. Check Balance
+  6. Mini Statement
+  7. Apply Savings Interest
+  8. Bank Report
+  0. Exit
+
+Enter choice: 9
+❌ Invalid choice. Please enter a number from 0 to 8.
+
+==================================================
+              🏦 Python National Bank              
+==================================================
+  1. Create Account
+  2. Deposit
+  3. Withdraw
+  4. Transfer
+  5. Check Balance
+  6. Mini Statement
+  7. Apply Savings Interest
+  8. Bank Report
+  0. Exit
+
+Enter choice: abc
+❌ Invalid choice. Please enter a number from 0 to 8.
+
+==================================================
+              🏦 Python National Bank              
+==================================================
+  1. Create Account
+  2. Deposit
+  3. Withdraw
+  4. Transfer
+  5. Check Balance
+  6. Mini Statement
+  7. Apply Savings Interest
+  8. Bank Report
+  0. Exit
+
+Enter choice: 0
+
+Thank you for banking with Python National Bank. Goodbye! 👋
